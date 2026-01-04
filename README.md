@@ -52,17 +52,10 @@ The final schema was visualized using MySQL Workbench.
 
 📈 The Cleaning Journey – By the Numbers
 
+📈 The Cleaning Journey – By the Numbers
 
-Stage
-Rows
-What It Means
-Raw Data
-541,909
-Every single record from the original system
-Clean Data
-397,884
-Actual, valid sales we can analyze
-Rows Removed
-144,025
-Data that didn’t tell a useful business story
+|Stage|	|Rows|	|What It Means|
+| Raw Data |	| 541,909 |	| Every single record from the original system |
+| Clean Data |	| 397,884 |	| Actual, valid sales we can analyze |
+| Rows Removed |	| 144,025 |	| Data that didn’t tell a useful business story |
 That’s 144,025 rows of noise filtered out – cancelled orders, system errors, and incomplete transactions – leaving us with clean, trustworthy data for decision-making.
