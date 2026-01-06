@@ -9,21 +9,25 @@ The focus of the project is data cleaning, dimensional modeling, and analytical 
 -	Original format: Excel (.xlsx)
 The dataset contains transactional data for a UK-based online retail company.
 
-🧱 Project Architecture
+## 📦 Project Architecture
+
 The project follows a layered data pipeline approach:
-1️⃣ Raw Layer
--	Original dataset converted from Excel to CSV
--	Imported into MySQL using a Python script
-2️⃣ Staging / Cleaning Layer
--	A staging table (clean_online_retail) was created using SQL
--	Data cleaning rules applied:
--	Removed cancelled invoices
--	Filtered invalid quantities and prices
--	Handled missing customer values
--	Standardized text fields
--	Calculated revenue per invoice line
-3️⃣ Analytics Layer (Star Schema)
-A star schema was designed and implemented for analytical workloads.
+
+1. **Raw layer**
+   - Original dataset converted from Excel to CSV
+   - Imported into MySQL using a Python script
+
+2. **Staging / Cleaning layer**
+   - A staging table (`clean_online_retail`) was created using SQL
+   - Data cleaning rules applied:
+     - Removed cancelled invoices
+     - Filtered invalid quantities and prices
+     - Handled missing customer values
+     - Standardized text fields
+     - Calculated revenue per invoice line
+
+3. **Analytics layer (Star Schema)**
+   - A star schema was designed and implemented for analytical workloads
 
 ## ⭐ Star Schema Tables
 
