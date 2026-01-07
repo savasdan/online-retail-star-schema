@@ -71,4 +71,4 @@ The dashboard includes:
 - Revenue by country
 - Interactive slicers for Year, Month, and Country
 
-![Sales Dashboard](images/dashboard_overview.png)
+
